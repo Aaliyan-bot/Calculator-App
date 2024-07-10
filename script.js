@@ -26,4 +26,3 @@ buttons.forEach((button) => {
 
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
-console.log(buttons)
